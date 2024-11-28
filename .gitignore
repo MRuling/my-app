@@ -43,6 +43,8 @@ yarn-error.*
 # dependencies
 node_modules/
 
+
+
 # Expo
 .expo/
 dist/
@@ -76,3 +78,8 @@ yarn-error.*
 *.tsbuildinfo
 
 # @end expo-cli
+
+
+# Add android/ and ios/ to .gitignore
+/android
+/ios
